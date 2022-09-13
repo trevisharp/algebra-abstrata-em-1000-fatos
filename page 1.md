@@ -168,7 +168,7 @@ $(x \cdot y)^{-1} = y^{-1} \cdot x^{-1}$
 
 # f18
 
-Se $G$ é um [Grupo](#f11), dizemos que o tamanho do conjunto de $G$, ou seja $|G|$ é a <u>Ordem do Grupo</u>.
+Se $G$ é um [Grupo](#f11), dizemos que o tamanho do conjunto de $G$, ou seja $O(G) = |G|$ é a <u>Ordem do Grupo</u>.
 
 # f19
 
