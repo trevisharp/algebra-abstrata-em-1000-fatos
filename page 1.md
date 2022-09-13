@@ -1,16 +1,16 @@
 # f1
 
-Seja uma função $f : A^2 \to A$ e o conjunto $B \subset A$, o par $(B, f)$ será um *Magma* se:
+Seja uma função $f : A^2 \to A$ e o conjunto $B \subset A$, o par $(B, f)$ será um **Magma** se:
 
 $\forall a, b \in B ( f(a,b) \in B)$
 
 # f2
 
-Essa propriedade se chama *Totalidade*.
+Essa propriedade se chama **Totalidade**.
 
 # f3
 
-E f é dita a *operação* da estrutura, geralmente denotada como:
+E f é dita a **operação** da estrutura, geralmente denotada como:
 
 $a \cdot b = c \iff f(a, b) = c$
 
@@ -20,11 +20,11 @@ Caso a estrutura $G$ possua a seguinte propriedade:
 
 $(a \cdot b) \cdot c = a \cdot (b \cdot c)$
 
-Dizemos que ela tem *Associatividade*.
+Dizemos que ela tem **Associatividade**.
 
 # f5
 
-Um [Magma](#f1) com [Associatividade](#f4) é um *Semi-grupo*.
+Um [Magma](#f1) com [Associatividade](#f4) é um **Semi-grupo**.
 
 # f6
 
@@ -32,7 +32,7 @@ Caso uma estrutura $G$  possua a seguinte propriedade:
 
 $\exists e \in G (\forall a \in G (e \cdot a = a \cdot e = a))$
 
-Dizemos que ela tem *Neutralidade*.
+Dizemos que ela tem **Neutralidade**.
 
 # f7
 
@@ -40,11 +40,11 @@ Quando uma estrutura possuir [Neutralidade](#f6), os elementos que $e$ da expres
 
 $\exists e \in G (\forall a \in G (e \cdot a = a \cdot e = a))$
 
-São chamados de *Elementos Neutros*.
+São chamados de **Elementos Neutros**.
 
 # f8
 
-Um [Semi-grupo](#f5) com [Neutralidade](#f6) é um *Monóide*.
+Um [Semi-grupo](#f5) com [Neutralidade](#f6) é um **Monóide**.
 
 # f9
 
@@ -52,19 +52,19 @@ Caso uma estrutura $G$  possua a seguinte propriedade:
 
 $\forall g \in G (\exists h, e \in G (e~é~elemento~neutro~de~G ~\&~ g \cdot h = e))$
 
-Dizemos que ela tem *Inversabilidade*.
+Dizemos que ela tem **Inversabilidade**.
 
 # f10
 
-Caso uma estrutura $G$ possuir [Inversabilidade](#f9), então para cada elemento $x \in G$ denotamos o *Elemento Inverso* deste $x$ como $x^{-1}$.
+Caso uma estrutura $G$ possuir [Inversabilidade](#f9), então para cada elemento $x \in G$ denotamos o **Elemento Inverso** deste $x$ como $x^{-1}$.
 
 # f11
 
-Um [Monóide](#f8) com [Inversabilidade](#f9) é um *Grupo*.
+Um [Monóide](#f8) com [Inversabilidade](#f9) é um **Grupo**.
 
 # f12
 
-A *Notação de Potência* será utilizada quando queremos escrever:
+A **Notação de Potência** será utilizada quando queremos escrever:
 
 $x \cdot x \cdot x \cdot x ... = x^n$
 
@@ -90,11 +90,11 @@ Caso uma estrutura $G$  possua a seguinte propriedade:
 
 $\forall g, h \in G (g \cdot h = h \cdot g)$
 
-Dizemos que ela tem *Comutatividade*.
+Dizemos que ela tem **Comutatividade**.
 
 # f14
 
-Um [Grupo](#f11) com [Comutatividade](#f13) é um *Grupo Abeliano*.
+Um [Grupo](#f11) com [Comutatividade](#f13) é um **Grupo Abeliano**.
 
 # f15
 
@@ -126,7 +126,7 @@ Assim,
 
 $e_1 = e_2$
 
-Desta forma provamos que nossa hipótese de termos dois elementos neutros estava errada. Isso significa que temos a *Unicidade do elemento Neutro*. Em todo [Grupo](#f11) existe um e apenas um [Elemento Neutro](#f7). Desta forma, usaremos apenas a letra $e$ que sempre significará este único elemento.
+Desta forma provamos que nossa hipótese de termos dois elementos neutros estava errada. Isso significa que temos a **Unicidade do elemento Neutro**. Em todo [Grupo](#f11) existe um e apenas um [Elemento Neutro](#f7). Desta forma, usaremos apenas a letra $e$ que sempre significará este único elemento.
 
 # f16
 
@@ -140,7 +140,7 @@ $e \cdot y_1 = e \cdot y_2$
 
 $y_1 = y_2$
 
-Provando assim que para cada $x$ qualquer em $G$ existe um e apenas um [Elemento Inverso](#f10). Assim temos a *Unicidade do elemento Inverso*.
+Provando assim que para cada $x$ qualquer em $G$ existe um e apenas um [Elemento Inverso](#f10). Assim temos a **Unicidade do elemento Inverso**.
 
 # f17
 
@@ -168,15 +168,15 @@ $(x \cdot y)^{-1} = y^{-1} \cdot x^{-1}$
 
 # f18
 
-Se $G$ é um [Grupo](#f11), dizemos que o tamanho do conjunto de $G$, ou seja $O(G) = |G|$ é a *Ordem do Grupo*.
+Se $G$ é um [Grupo](#f11), dizemos que o tamanho do conjunto de $G$, ou seja $O(G) = |G|$ é a **Ordem do Grupo**.
 
 # f19
 
-Se a [Ordem de um Grupo](#f18) é finita, dizemos que o [Grupo](#f11) é um *Grupo Finito*.
+Se a [Ordem de um Grupo](#f18) é finita, dizemos que o [Grupo](#f11) é um **Grupo Finito**.
 
 # f20
 
-Se a [Ordem de um Grupo](#f18) é infinita, dizemos que o [Grupo](#f11) é um *Grupo Ininito*.
+Se a [Ordem de um Grupo](#f18) é infinita, dizemos que o [Grupo](#f11) é um **Grupo Ininito**.
 
 ---
 ---

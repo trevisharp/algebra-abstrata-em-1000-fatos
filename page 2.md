@@ -4,7 +4,7 @@ Seja $G$ um [Grupo](/page%201.md#f11) e $g \in G$ um elemento qualquer, supondo 
 
 $O(g) = k \iff g^k = e $
 
-Dizemos que O(g) é a *Ordem do Elemento* g.
+Dizemos que O(g) é a **Ordem do Elemento** g.
 
 # f22
 
@@ -18,7 +18,7 @@ Tomando $k > n$:
 
 $g^{k-n} = e \to O(g) = k - n$
 
-Assim, *Em um Grupo Finito, todos os elementos tem ordem finita*. Isso significa que ao operá-los consigo mesmos, em algum momento, teremos o elemento nulo.
+Assim, **Em um Grupo Finito, todos os elementos tem ordem finita**. Isso significa que ao operá-los consigo mesmos, em algum momento, teremos o elemento nulo.
 
 # f23
 
@@ -60,7 +60,7 @@ Seja $G$ um [Grupo Finito](/page%201.md#f20) e $g \in G$, caso:
 
 $G = \{ g^0 = e, g^1, g^2, g^3, ... \}$
 
-Dizemos que $G$ é um *Grupo Ciclico*, denotado por:
+Dizemos que $G$ é um **Grupo Ciclico**, denotado por:
 
 $G = \langle g \rangle$
 
