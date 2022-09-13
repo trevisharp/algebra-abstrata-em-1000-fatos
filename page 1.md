@@ -166,18 +166,6 @@ $y^{-1} \cdot x^{-1} = z$
 
 $(x \cdot y)^{-1} = y^{-1} \cdot x^{-1}$
 
-# f18
-
-Se $G$ é um [Grupo](#f11), dizemos que o tamanho do conjunto de $G$, ou seja $O(G) = |G|$ é a **Ordem do Grupo**.
-
-# f19
-
-Se a [Ordem de um Grupo](#f18) é finita, dizemos que o [Grupo](#f11) é um **Grupo Finito**.
-
-# f20
-
-Se a [Ordem de um Grupo](#f18) é infinita, dizemos que o [Grupo](#f11) é um **Grupo Ininito**.
-
 ---
 ---
 ---
