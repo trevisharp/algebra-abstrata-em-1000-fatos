@@ -1,12 +1,12 @@
 # f1
 
-Seja uma função $f : A^2 \to A$ e o conjunto $B \subset A$, o par $(B, f)$ será um **Magma** se:
+Seja uma função $f : A^2 \to A$ e o conjunto $B \subset A$, o par $(B, f)$ é uma estrutura com **Totalidade** se:
 
 $\forall a, b \in B ( f(a,b) \in B)$
 
 # f2
 
-Essa propriedade se chama **Totalidade**.
+Uma estrutura com [Totalidade](#f1) é um **Magma**.
 
 # f3
 
@@ -24,7 +24,7 @@ Dizemos que ela tem **Associatividade**.
 
 # f5
 
-Um [Magma](#f1) com [Associatividade](#f4) é um **Semi-grupo**.
+Um [Magma](#f2) com [Associatividade](#f4) é um **Semi-grupo**.
 
 # f6
 
