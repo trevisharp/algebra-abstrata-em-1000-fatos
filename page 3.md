@@ -6,7 +6,7 @@ Seja $G$ um [Grupo](/page%201.md#f11) e $H$ um subconjunto de $G$ se, e somente 
 
 <u>Denotamos um Subgrupo</u> H de G da seguinte maneira:
 
-$H <= G$
+$H \le G$
 
 
 ---
