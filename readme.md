@@ -11,4 +11,5 @@ Neste repositório estão meus estudos/conhecimentos em algebra abstrata, fique 
 - Geradores (Em breve...)
 - Produto Direto (Em breve...)
 - Decomposição Jordan-Holder (Em breve...)
+
 E continua...
