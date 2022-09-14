@@ -67,11 +67,11 @@ Assim, está relação é uma relação de equivalência.
 
 A relação do [fato 32](#f32) por ser uma relação de equivalência, dividimos um [Grupo](/page%201.md#f11) $G$ por seu [Subgrupo](#f27) $H$ em classes de equivalência ao qual chamaremos de **Classes Laterais**:
 
-$\bar g = \{ x \in G | x \sim_H g \}$
+$\bar g = \{ x \in G \mid x \sim_H g \}$
 
 Podemos manipular esse conjunto da seguinte forma:
 
-$\bar g = \{ x \in G | h = x \cdot g^{-1} \in H \}$
+$\bar g = \{ x \in G \mid h = x \cdot g^{-1} \in H \}$
 
 Porém como:
 
@@ -79,7 +79,7 @@ $h = x \cdot g^{-1} \to h \cdot g = x$
 
 Então:
 
-$\bar g = \{ h \cdot g | h \in H \}$
+$\bar g = \{ h \cdot g \mid h \in H \}$
 
 Note que isso só é possível pois:
 
@@ -87,7 +87,7 @@ $\forall h \in H \exists x \in G (h = x \cdot g^{-1})$
 
 Assim, podemos escrever uma Classe lateral a direita:
 
-$H g = \{ h \cdot g | h \in H \}$
+$H g = \{ h \cdot g \mid h \in H \}$
 
 # f34
 
@@ -97,9 +97,45 @@ $x \sim_H y \iff x^{-1} \cdot y \in H$
 
 Assim definindo:
 
-$g H = \{ g \cdot h | h \in H \}$
+$g H = \{ g \cdot h \mid h \in H \}$
 
+# f35
 
+O conjunto de todas as [Classes Laterais](#f33) a [Esquerda](#f34) é conhecido como **Conjunto Quociente**:
+
+$\frac{G}{H} = \{ g H \mid g \in G \}$
+
+# f36
+
+O tamanho de cada [Classe Lateral](#f33), então será:
+
+$|g H| = |\{g \cdot h \mid h \in H\}|$
+
+Para calcular isso, começamos supondo que existe dois elementos $h_1, h_2 \in H$ tal que:
+
+$h_1 \ne h_2 \land g \cdot h_1 = g \cdot h_2$
+
+Contudo:
+
+$g^{-1} \cdot g \cdot h_1 = g^{-1} \cdot g \cdot h_2$
+
+$h_1 = h_2$
+
+Assim, por absurdo, não existem 2 $h$ que levem ao mesmo element em $g H$, desta forma:
+
+$|g H| = |\{ g \cdot h_1 \} \cup \{ g \cdot h_2 \} \cup ... \cup \{ g \cdot h_{O(H)} \}|$
+
+E como sabemos que os elementos $g \cdot h_i$ são todos diferentes, podemos escrever:
+
+$|g H| = |\{ g h_1 \}| + |\{ g h_2 \}| + ... + |\{ g h_{O(H)} \}|$
+
+$|g H| = O(H) = |H|$
+
+Podemos provar de forma análoga para classes a direita também. Assim:
+
+$|g H| = |H g| = |H|$
+
+Note que não necessariamente g H = H g.
 
 ---
 ---
