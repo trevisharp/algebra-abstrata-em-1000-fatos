@@ -120,7 +120,7 @@ $e \cdot e_1 = e_1$
 
 E,
 
-$e \cdot e_2$
+$e \cdot e_2 = e_2$
 
 Assim,
 

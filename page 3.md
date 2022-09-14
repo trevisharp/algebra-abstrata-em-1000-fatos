@@ -48,6 +48,56 @@ $g, h \in I \to g, h \in G \land g, h \in H \to gh \in G \land g \cdot h \in H \
 
 Assim se $G \cap H \ne \emptyset$, $G \cap H$ é um [Grupo](/page%201.md#f11). Especialmente, **A intersecção de dois [Subgrupo](#f27) é um [Subgrupo](#f27)**.
 
+# f32
+
+Um [Grupo](/page%201.md#f11) $G$ pode ser reparticionado através de um [Subgrupo](#f27) $H$ definindo a seguinte **relação**:
+
+$x \sim_H y \iff x \cdot y^{-1} \in H$
+
+A semelhança com o [fato 29](#f29) é proposital, ela faz com que os elemntos de $H$ sempre se relacionem, além disso esse tipo de expressão, como pudemos ver, nos trás várias relações interessantes.
+Sobre a relação podemos observar propriedades importantes:
+
+1. Reflexividade: $x \cdot x^{-1} = e \in H \to x \sim_H x$
+2. Simetria: $x \sim_H y \to x \cdot y^{-1} \in H \to (x \cdot y^{-1})^{-1} = y \cdot x^{-1} \in H \to y \sim_H x$
+3. Transitividade: $x \sim_H y \land y \sim_H z \to x \cdot y^{-1} \in H \land y \cdot z^{-1} \in H \to x \cdot y^{-1} \cdot y \cdot z^{-1} = x \cdot z^{-1} \in H \to x \sim_H z$
+
+Assim, está relação é uma relação de equivalência.
+
+# f33
+
+A relação do [fato 32](#f32) por ser uma relação de equivalência, dividimos um [Grupo](/page%201.md#f11) $G$ por seu [Subgrupo](#f27) $H$ em classes de equivalência ao qual chamaremos de **Classes Laterais**:
+
+$\bar g = \{ x \in G | x \sim_H g \}$
+
+Podemos manipular esse conjunto da seguinte forma:
+
+$\bar g = \{ x \in G | h = x \cdot g^{-1} \in H \}$
+
+Porém como:
+
+$h = x \cdot g^{-1} \to h \cdot g = x$
+
+Então:
+
+$\bar g = \{ h \cdot g | h \in H \}$
+
+Note que isso só é possível pois:
+
+$\forall h \in H \exists x \in G (h = x \cdot g^{-1})$
+
+Assim, podemos escrever uma Classe lateral a direita:
+
+$H g = \{ h \cdot g | h \in H \}$
+
+# f34
+
+Da mesma forma que temos classes laterais direitas, podemos ter **Classes Laterais Esquerdas** realizando o mesmo processo com a seguinte relação de equivalência, análoga a do [fato 32](#f32):
+
+$x \sim_H y \iff x^{-1} \cdot y \in H$
+
+Assim definindo:
+
+$g H = \{ g \cdot h | h \in H \}$
 
 
 
