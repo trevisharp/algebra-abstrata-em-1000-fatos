@@ -78,7 +78,7 @@ $G = \langle g \rangle$
 
 # f26
 
-Evidentemente, um [Grupo Ciclico](#f26) G é [Abeliano](/page%201.md#f14), pois:
+Evidentemente, um [Grupo Ciclico](#f25) G é [Abeliano](/page%201.md#f14), pois:
 
 $\forall x = g^k, y = g^n \in G (x \cdot y = g^{k + n} = g^{n + k} = y \cdot x)$
 

@@ -20,7 +20,7 @@ $h \in H \to h \cdot h^{-1} = e \in H$ ([Neutralidade](/page%201.md#f6))
 
 $h, e \in H \to e \cdot h^{-1} = h^{-1} \in H$ ([Inversabilidade](/page%201.md#f9))
 
-$g, h \in H \to g, h^{-1} \in H \to g \cdot (h^{-1})^{-1} = g \cdot h in H$ ([Totalidade](/page%201.md#f1))
+$g, h \in H \to g, h^{-1} \in H \to g \cdot (h^{-1})^{-1} = g \cdot h \in H$ ([Totalidade](/page%201.md#f1))
 
 Como:
 
