@@ -1,4 +1,4 @@
-# f37
+# f48
 
 Devido ao [fato 36](/page%203.md#f36) temos que repartimos um [Grupo](/page%201.md#f11) $G$ pelo seu [Subgrupo](/page%203.md#27) $H$ em [Classes Laterais](/page%203.md#34) de tamanho iguais de forma que todos os elementos estão em alguma das classes, logo fica claro que:
 
@@ -6,13 +6,13 @@ $|G| = |\frac{G}{H}| |H|$
 
 Pois o tamanho de $G$ é igual ao tamanho das repartições vezes o tamanho de cada repartição. Este é o **Teorema de Lagrange**.
 
-# f38
+# f49
 
 Uma consequência do [Teorema de Lagrange](#f37) é que dado um [Grupo](/page%201.md#f11) $G$ de ordem $p$ prima, então:
 
 $H \le G \to p = |\frac{G}{H}| |H| \to |H| = 1 \lor |H| = |G| \to H = \{ e \} \lor H = G$
 
-# f39
+# f50
 
 Supondo um [Grupo](/page%201.md#f11) $G$ onde $|G| = p$ primo. Tomamos um elemento qualquer $x \ne e$, onde $x \in G$. Assim criamos o [Seguinte Subgrupo](/page%203.md#30) $\langle x \rangle \le G$. Contudo, pelo [fato 38](#38) temos que:
 
@@ -24,7 +24,7 @@ $\langle x \rangle = G$
 
 Assim, todo [Grupo](/page%201.md#f11) de ordem prima é [Ciclico](#f26).
 
-# f40
+# f51
 
 Supomos um [Grupo](/page%201.md#f11) $G$ onde $|G| = 4$. Por ser simples, podemos provar que $G$ é [Abeliano](/page%201.md#f14), mesmo sem saber a estrutura. Então seja $G = \{ e, a, b, c \}$, podemos supor que:
 
@@ -70,37 +70,22 @@ $x \cdot y  = y \cdot x$
 
 Assim, **Independente da operação $G$ com $|G| = 4$ é [Abeliano](/page%201.md#f14)**.
 
-# f41
+# f52
 
 Juntando os fatos [39](#f39) e [40](#f40) temos que **$G$ com $|G| < 6 é [Abeliano](/page%201.md#f14)**.
 
-# f42
-
-O conjunto dos **números inteiros dotado da operações de soma $(\mathbb{Z}, +)$ é um [Grupo](/page%201.md#11)**, pois, dado $a, b, c \in \mathbb{Z}$:
-
-1. $a + b \in \mathbb{Z}$ ([Totalidade](/page%201.md#f1))
-2. $a + 0 = 0 + a = a, 0 \in \mathbb{Z}$ ([Neutralidade](/page%201.md#f6))
-3. $(a + b) + c = a + (b + c)$ ([Associatividade](/page%201.md#f4))
-4. $a - a  = 0$ ([Inversabilidade](/page%201.md#f9))
-
-# f43
-
-Podemos encontrar um [Subgrupo](/page%203.md#27) para o [grupo do fato 42](#f42) como um subgrupo [Ciclico](/page%202.md#f25). Denotamos este subgrupo como $n \mathbb{Z} = \langle n \rangle$.
-
-# f44
-
-Uma **álgebra em módulo pode ser definida com o conjunto quociente**, ou seja, $\frac{\mathbb{Z}}{n \mathbb{Z}}$. Futuramente aprenderemos a mostrar que este é um grupo. Apenas um exemplo:
-
-$\frac{\mathbb{Z}}{5 \mathbb{Z}} = \{ \bar 0, \bar 1, \bar 2, \bar 3, \bar 4 \}$
-
-Para fazer qualquer operação fazemos o módulo por 5:
-
-$\bar 2 + \bar 4 = \bar 6 = \bar 1$
-
-Fora do contexto de grupos, costumamos representar da seguinte forma:
-
-$2 + 4 \equiv 1 \mod 5$
-
-# f45
+# f53
 
 Dado um primo $p$ qualquer definimos uma [algebra em módulo](#f44) de $p$ como $\frac{\mathbb{Z}}{p \mathbb{Z}} = \mathbb{Z}_p$, dado um $a \ne 0 \in \mathbb{Z}_p$ temos que:
+
+---
+---
+---
+
+## [Menu](/readme.md)
+
+## [Página anterior](/page%204.md)
+
+## [Topo](#f46)
+
+## [Próxima página](/page%206.md)
