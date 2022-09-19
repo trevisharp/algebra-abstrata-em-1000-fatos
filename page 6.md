@@ -62,7 +62,7 @@ $\ker(\phi) = \{ g \in G : \phi(g) = e' \}$
 
 Chamamos de **Imagem** de um [Homomorfismo](#f55) o seguinte conjunto:
 
-$\image(\phi) = \phi(G) = \{ \phi(g) : g \in G \}$
+$Im(\phi) = \phi(G) = \{ \phi(g) : g \in G \}$
 
 # f65
 
@@ -104,9 +104,9 @@ E pelo [fato 39](/page%204.md#f39) temos que o **Núcleo de um Homomorfismo é u
 
 # f68
 
-Seja um $\phi : G \to G'$ e $g'=\phi(g), h'=\phi(h) \in \image(\phi)$, temos que:
+Seja um $\phi : G \to G'$ e $g'=\phi(g), h'=\phi(h) \in Im(\phi)$, temos que:
 
-$\phi(g \cdot h^{-1}) = \phi(g) \cdot \phi(h)^{-1} \to g' \cdot h'^{-1} \in \image(\phi)$
+$\phi(g \cdot h^{-1}) = \phi(g) \cdot \phi(h)^{-1} \to g' \cdot h'^{-1} \in Im(\phi)$
 
 E pelo [fato 39](/page%204.md#f39) temos que a **Imagem de um Homomorfismo é um Subgrupo do seu Grupo de Contradomínio**.
 
