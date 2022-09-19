@@ -6,7 +6,7 @@ Neste repositório estão meus estudos/conhecimentos em algebra abstrata, fique 
 - [Subgrupos Normais](/page%204.md)
 - [Teorema de Lagrange](/page%205.md)
 - [Homomorfismos](/page%206.md)
-- Ações (Em breve...)
+- [Ações](/page%207.md)
 - Teorema de Sylow (Em breve...)
 - Geradores (Em breve...)
 - Produto Direto (Em breve...)
