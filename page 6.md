@@ -64,6 +64,60 @@ Chamamos de **Imagem** de um [Homomorfismo](#f55) o seguinte conjunto:
 
 $\image(\phi) = \phi(G) = \{ \phi(g) : g \in G \}$
 
+# f65
+
+Seja um $\phi : G \to G'$ então é notável que:
+
+$\phi(h^g) = \phi(g \cdot h \cdot g^{-1}) = \phi(g) \cdot \phi(h) \cdot \phi(g^{-1}) = \phi(g) \cdot \phi(h) \cdot \phi(g)^{-1} = \phi(h)^{\phi(g)}$
+
+# f66
+
+Seja um $\phi : G \to G'$ e $j, k \in \ker(\phi)$, temos que:
+
+$\phi(j \cdot k^{-1}) = \phi(j) \cdot \phi(k)^{-1} = e \cdot e^{-1} = e$
+
+Assim:
+
+$j \cdot k^{-1} \in \ker(\phi)$
+
+E pelo [fato 29](/page%203.md#29) temos que **O Núcleo de um Homomorfismo é um Subgrupo do seu Grupo de Domínio**.
+
+# f67
+
+Seja um $\phi : G \to G'$ e $k \in \ker(\phi)$, é notável que:
+
+$\phi(k^g) = \phi(g) \cdot \phi(k) \cdot \phi(g)^{-1} = \phi(g) \cdot e \cdot \phi(g)^{-1}$
+
+$\phi(g) \cdot e \cdot \phi(g)^{-1}= \phi(g) \cdot \phi(g)^{-1} = e'$
+
+Assim:
+
+$k^g \in \ker(\phi)$
+
+Portanto:
+
+$x \in \ker(\phi)^g \to x \in \ker(\phi)$
+
+$\ker(\phi)^g \subset \ker(\phi)$
+
+E pelo [fato 39](/page%204.md#f39) temos que o **Núcleo de um Homomorfismo é um Subgrupo Normal do seu Grupo de Domínio**.
+
+# f68
+
+Seja um $\phi : G \to G'$ e $g'=\phi(g), h'=\phi(h) \in \image(\phi)$, temos que:
+
+$\phi(g \cdot h^{-1}) = \phi(g) \cdot \phi(h)^{-1} \to g' \cdot h'^{-1} \in \image(\phi)$
+
+E pelo [fato 39](/page%204.md#f39) temos que a **Imagem de um Homomorfismo é um Subgrupo do seu Grupo de Contradomínio**.
+
+# f69
+
+Pelo [fato 67](#f67) adjunto do [fato 42](/page%204.md#42) temos que **$\frac{G}{\ker(\phi)}$ é um [Grupo](/page%201.md#f11)**.
+
+# f70
+
+Então podemos provar o **Primeiro Teorema do Isomorfismo**.
+
 ---
 ---
 ---
