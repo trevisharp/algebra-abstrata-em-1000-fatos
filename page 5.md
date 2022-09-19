@@ -76,7 +76,31 @@ Juntando os fatos [39](#f39) e [40](#f40) temos que **$G$ com $|G| < 6 é [Abeli
 
 # f53
 
-Dado um primo $p$ qualquer definimos uma [algebra em módulo](#f44) de $p$ como $\frac{\mathbb{Z}}{p \mathbb{Z}} = \mathbb{Z}_p$, dado um $a \ne 0 \in \mathbb{Z}_p$ temos que:
+Visto que um [Subgrupo Ciclico](/page%202.md#f25) $\langle g \rangle \le G$ possui os elementos $\{ e, g, g^2,..., g^{n-1}\}$, onde $O(g) = n$, assim temos que:
+
+$O(\langle g \rangle) = O(g)$
+
+E, graças ao [Teorema de Lagrange](#f48) :
+
+$|G| = |\frac{G}{\langle g \rangle}| O(g)$
+
+Ou:
+
+$O(g) \mid O(G)$
+
+Basicamente, **A ordem de um elemento qualquer em $G$ pode ser dividido pela ordem de qualquer elemento $g$**.
+
+# f54
+
+Dado a algebra em módulo dos fatos [46](/page%204.md#46) e [47](/page%204.md#47) para o primo $p$. Podemos criar um [Subgrupo Ciclico](/page%202.md#f25) $\langle a \rangle$. Assim podemos usar o [Teorema de Lagrange](#f48) através do [fato 53](#f53):
+
+$O(a) \mid p - 1$
+
+Assim, $a^{p - 1} = e$. Logo:
+
+$a^{p - 1} \equiv 1 \mod p$
+
+Este é conhecido como **O Pequeno Teorema de Fermat**.
 
 ---
 ---
@@ -86,6 +110,6 @@ Dado um primo $p$ qualquer definimos uma [algebra em módulo](#f44) de $p$ como 
 
 ## [Página anterior](/page%204.md)
 
-## [Topo](#f46)
+## [Topo](#f48)
 
 ## [Próxima página](/page%206.md)

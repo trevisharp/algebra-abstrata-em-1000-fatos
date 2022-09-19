@@ -131,15 +131,16 @@ $2 + 4 \equiv 1 \mod 5$
 
 # f47
 
-Outra estrutura interessante são o conjunto dos inteiros com a operação de multiplicação ($\mathbb{Z}$, $\times$), porém não teríamos a propriedade de [Inversabilidade](/page%201.md#f9) visto que, por exemplo, 5 não tem seu inverso ($\frac{1}{5} \notin \mathbb{Z}$). Porém, temos associatividade, neutro ($n = 1$) e totalidade. Assim temos um [Monóide](/page%201.md#f8).
+Outra estrutura interessante são o conjunto dos inteiros com a operação de multiplicação ($\mathbb{Z}^* =\mathbb{Z} \setminus \{0\}$, $\times$), porém não teríamos a propriedade de [Inversabilidade](/page%201.md#f9) visto que, por exemplo, 5 não tem seu inverso ($\frac{1}{5} \notin \mathbb{Z}$). Porém, temos associatividade, neutro ($n = 1$) e totalidade. Assim temos um [Monóide](/page%201.md#f8).
 
-Contudo em uma álgebra de módulo temos uma situação um pouco diferente. Seja então a estrutura $(\frac{\mathbb{Z}}{n \mathbb{Z}}, \times)$, precisamos encontrar as condições para que tenhamos [Inversabilidade](/page%201.md#f9).
+Contudo em uma álgebra de módulo temos uma situação um pouco diferente. Contudo, como o elemento $0$ está fora do grupo pois quebra propriedades como [Inversabilidade](/page%201.md#f9), $\forall a (a 0 \ne 1)$, precisamos garantir que:
 
-$a, b = a^{-1} \in \frac{\mathbb{Z}}{n \mathbb{Z}}$
+$\nexists a, b (a \times b = n = 0)
+$
 
-Onde:
+A única forma de garantir isso é que n seja primo.
 
-$a b - kn = 1$
+Assim **$\mathbb{N}^*_p = \{1, 2, 3, ..., p\}$ é um grupo sob a multiplicação em módulo se $p$ é primo**.
 
 ---
 ---
