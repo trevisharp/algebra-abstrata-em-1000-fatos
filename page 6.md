@@ -160,10 +160,6 @@ Portanto:
 
 $\frac{G}{\ker(\phi)} \equiv Im(\phi)$
 
-
-
-
-
 ---
 ---
 ---

@@ -7,7 +7,7 @@ Neste repositório estão meus estudos/conhecimentos em algebra abstrata, fique 
 - [Teorema de Lagrange](/page%205.md)
 - [Homomorfismos](/page%206.md)
 - [Produto de Subgrupos](/page%207.md)
-- Ações (Em breve...)
+- [Ações](/page%208.md)
 - Teorema de Sylow (Em breve...)
 - Geradores (Em breve...)
 - Decomposição Jordan-Holder (Em breve...)
