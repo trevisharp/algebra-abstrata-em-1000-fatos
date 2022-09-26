@@ -118,6 +118,52 @@ Pelo [fato 67](#f67) adjunto do [fato 42](/page%204.md#42) temos que **$\frac{G}
 
 Então podemos provar o **Primeiro Teorema do Isomorfismo**.
 
+Inicialmente, dado um [Homomorfismo](#f55) $\phi : G \to H$ definimos uma função $\rho : \frac{G}{\ker(\phi)} \to Im(\phi)$ tal que:
+
+$\rho(g \ker(\phi)) = \rho(\bar g) = \phi(g)$
+
+Primeiro precisamos provar que a definição é consistente, ou seja:
+
+$\rho(\bar g_1) = \rho(\bar g_2) \to \phi (g_1) = \phi (g_2)$
+
+Ou seja, é necessário que:
+
+$\phi (g_1) \cdot \phi (g_2)^{-1} = e' = \phi(e)$
+
+Porém:
+
+$g_1 \sim_{\ker(\phi)} g_2 \to g_1 \cdot g_2^{-1} = k \in \bar e$
+
+$\phi(g_1) \cdot \phi(g_2)^{-1} = \phi(k) = e'$
+
+Assim temos que $\rho$ é um [Homomorfismo](#f55) consistente. Como podemos mapear todas as entradas de $\phi$ e nossa função tem como contradomínio a imagem de $\phi$ temos que $\rho$ é sobrejetivo. Podemos provar também a injetividade:
+
+Sejam $\rho(\bar g_1) = \rho(\bar g_2)$, então:
+
+$\phi(g_1) = \phi(g_2)$
+
+Porém:
+
+$g_1 \cdot g_2^{-1} = k$
+
+$\phi(g_1) \cdot \phi(g_2)^{-1} = \phi(k) $
+
+$\phi(g_1) \cdot \phi(g_1)^{-1} = e =\phi(k) \to k \in \ker(\phi)$
+
+Logo:
+
+$g_1 \cdot g_2^{-1} \in \ker(\phi) \to \bar g_1 = \bar g_2$
+
+Assim $\rho$ é um [Isomorfismo](#f58).
+
+Portanto:
+
+$\frac{G}{\ker(\phi)} \equiv Im(\phi)$
+
+
+
+
+
 ---
 ---
 ---
