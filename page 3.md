@@ -44,7 +44,7 @@ $e \in G \land e \in H \to e \in I$ ([Neutralidade](/page%201.md#f6))
 
 $g \in I \to g \in G \land g \in H \to g^{-1} \in G \land g^{-1} \in H \to g^{-1} \in I$ ([Inversabilidade](/page%201.md#f9))
 
-$g, h \in I \to g, h \in G \land g, h \in H \to gh \in G \land g \cdot h \in H \to $ ([Totalidade](/page%201.md#f1))
+$g, h \in I \to g, h \in G \land g, h \in H \to gh \in G \land g \cdot h \in H$ ([Totalidade](/page%201.md#f1))
 
 Assim se $G \cap H \ne \emptyset$, $G \cap H$ é um [Grupo](/page%201.md#f11). Especialmente, **A intersecção de dois [Subgrupo](#f27) é um [Subgrupo](#f27)**.
 
