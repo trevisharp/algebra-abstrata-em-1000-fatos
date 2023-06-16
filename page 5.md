@@ -72,7 +72,7 @@ Assim, **Independente da operação $G$ com $|G| = 4$ é [Abeliano](/page%201.md
 
 # f52
 
-Juntando os fatos [39](#f39) e [40](#f40) temos que **$G$ com $|G| < 6 é [Abeliano](/page%201.md#f14)**.
+Juntando os fatos [39](#f39) e [40](#f40) temos que **$G$ com $|G| < 6$ é [Abeliano](/page%201.md#f14)**.
 
 # f53
 
