@@ -50,7 +50,7 @@ Um [Semi-grupo](#f5) com [Neutralidade](#f6) é um **Monóide**.
 
 Caso uma estrutura $G$  possua a seguinte propriedade:
 
-$\forall g \in G (\exists h, e \in G (e~é~elemento~neutro~de~G ~\&~ g \cdot h = e))$
+$\forall g \in G (\exists h, e \in G \land (e~neutro) g \cdot h = e))$
 
 Dizemos que ela tem **Inversabilidade**.
 
