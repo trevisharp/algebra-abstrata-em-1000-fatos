@@ -56,13 +56,13 @@ $\phi(g)^{-1} = \phi(g^{-1})$
 
 Chamamos de **Núcleo ou Kernel** de um [Homomorfismo](#f55) o seguinte conjunto:
 
-$\ker(\phi) = \{ g \in G : \phi(g) = e' \}$
+$\ker(\phi) = \lbrace g \in G : \phi(g) = e' \rbrace$
 
 # f64
 
 Chamamos de **Imagem** de um [Homomorfismo](#f55) o seguinte conjunto:
 
-$Im(\phi) = \phi(G) = \{ \phi(g) : g \in G \}$
+$Im(\phi) = \phi(G) = \lbrace \phi(g) : g \in G \rbrace$
 
 # f65
 
