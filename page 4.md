@@ -10,7 +10,7 @@ Dizemos que nesse caso, $h \in G$ está sendo conjungado por $g \in G$.
 
 Podemos **Conjugar um [Grupo](/page%201.md#f11)** [Conjugando](#f37) todos os seus elementos:
 
-$H^g = \{ h^g \mid h \in H \}$
+$H^g = \lbrace h^g \mid h \in H \rbrace$
 
 # f39
 
