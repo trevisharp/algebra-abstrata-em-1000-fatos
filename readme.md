@@ -1,5 +1,7 @@
 Neste repositório estão meus estudos/conhecimentos em matemática que considero úteis no estudo da computação, fique a vontade para estudar comigo!
 
+Contagem de fatos: Aproximadamente 80
+
 - Lógica (Em breve...) (Tópico ainda não subdividido)
 - Teoria dos Conjuntos (Em breve...) (Tópico ainda não subdividido)
 - Relações e Funções (Em breve...) (Tópico ainda não subdividido)
