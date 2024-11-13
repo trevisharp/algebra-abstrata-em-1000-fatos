@@ -2,7 +2,7 @@
 
 Sejam os [Grupos](/page%201.md#f11) $H_1, H_2 \le G$, definimos um **Produto de Grupos** como:
 
-$H_1  H_2 = \{ h_1 \cdot h_2 \mid h_1 \in H_1, h_2 \in H_2 \}$
+$H_1  H_2 = \lbrace h_1 \cdot h_2 \mid h_1 \in H_1, h_2 \in H_2 \rbrance$
 
 # f72
 
